@@ -715,6 +715,16 @@ video {
   margin: 0px;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-44 {
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+
 .ml-\[24px\] {
   margin-left: 24px;
 }
@@ -850,6 +860,22 @@ video {
   height: 40px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[420\] {
+  height: 420;
+}
+
+.h-\[420px\] {
+  height: 420px;
+}
+
+.h-\[420p\] {
+  height: 420p;
+}
+
 .w-\[40px\] {
   width: 40px;
 }
@@ -868,6 +894,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[360\] {
+  width: 360;
+}
+
+.w-\[420px\] {
+  width: 420px;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .flex-shrink {
@@ -1941,6 +1983,18 @@ video {
   background-origin: content-box;
 }
 
+.stroke-white {
+  stroke: #fff;
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
+.stroke-1 {
+  stroke-width: 1;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -1999,6 +2053,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-44 {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.px-\[220px\] {
+  padding-left: 220px;
+  padding-right: 220px;
 }
 
 .text-left {
@@ -2082,12 +2146,20 @@ video {
   font-size: 48px;
 }
 
+.text-\[96px\] {
+  font-size: 96px;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -2174,6 +2246,26 @@ video {
   letter-spacing: 0.48em;
 }
 
+.-tracking-wider {
+  letter-spacing: -0.05em;
+}
+
+.-tracking-tight {
+  letter-spacing: 0.025em;
+}
+
+.-tracking-tighter {
+  letter-spacing: 0.05em;
+}
+
+.-tracking-\[5\] {
+  letter-spacing: -5;
+}
+
+.-tracking-\[1rem\] {
+  letter-spacing: -1rem;
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2200,6 +2292,14 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[96\] {
+  color: 96;
 }
 
 .underline {
@@ -2576,6 +2676,10 @@ video {
   -webkit-text-fill-color: transparent;
 }
 
+.\[background\:linear-gradient\(90\.85deg\2c _\#1f5db3\2c _\#25219c\)\] {
+  background: linear-gradient(90.85deg, #1f5db3, #25219c);
+}
+
 .\[background\:linear-gradient\(90deg\2c _\#1f5db3\2c _\#25219c\)\] {
   background: linear-gradient(90deg, #1f5db3, #25219c);
 }
@@ -2701,6 +2805,11 @@ video {
 
   .lg\:h-6 {
     height: 1.5rem;
+  }
+
+  .lg\:px-\[220px\] {
+    padding-left: 220px;
+    padding-right: 220px;
   }
 
   .lg\:text-\[20px\] {
