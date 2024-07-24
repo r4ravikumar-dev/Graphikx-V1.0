@@ -725,6 +725,11 @@ video {
   margin-right: 11rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .ml-\[24px\] {
   margin-left: 24px;
 }
@@ -2063,6 +2068,11 @@ video {
 .px-\[220px\] {
   padding-left: 220px;
   padding-right: 220px;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .text-left {
